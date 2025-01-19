@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>EBIS Ejercicio formulario</title>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+	<meta name="generator" content="Alberto Téllez">
+	<meta name="buildDate" content="domingo, 19 de enero de 2025">
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+	<main>
+
+		<!--TÍTULO DEL FORMULARIO-->
+
+		<section class="titleSection">
+			<div class="titleSection__title">
+
+				<h1>Formulario 1</h1>
+				
+			</div>
+
+		</section>
+
+		<!--END TÍTULO DEL FORMULARIO-->
+
+		<!--FORMULARIO-->
+
+		<section class="formSection">
+
+			<form class="formSection__form" id="form_1" method="">
+
+				<div>
+					<label for="nombre" class="field-caption"> Nombre*</label>
+					<input type="text" name="nombre" id="nombre" required>
+					
+				</div>
+				<div>
+					<label for="apellidos" class="field-caption"> Apellidos*</label>
+					<input type="text" name="apellidos" id="apellidos" required>
+				</div>
+				<div>
+					<label for="email" class="field-caption"> Email*</label>
+					<input type="email" name="email" id="email" required>
+				</div>
+				<div>
+					<label for="password" class="field-caption"> Contraseña*</label>
+					<input type="password" name="password" id="pasword" required minlength="8">
+				</div>
+
+				<div class="btn-align">
+					<button class="btn-styled btnSubmit" type="submit">Enviar</button>
+				</div>
+
+			</form>
+
+		</section>
+
+		<!--END FORMULARIO-->
+
+	</main>
+
+</body>
+
+</html>
